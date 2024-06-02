@@ -19,7 +19,7 @@ use PHPUnit\Framework\Attributes\Group;
 require __DIR__.'/auth.php';
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.index');
 });
 
 Route::get('/dashboard', function () {
